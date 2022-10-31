@@ -1,12 +1,14 @@
 fun main() {
-    val a:Int
+    var a:Int
     println("Введите A:")
-    a= readLine()!!.toInt()
-    val b:Int
+    a=readLine()!!.toInt()
+    var b:Int
     println("Введите B")
     b= readLine()!!.toInt()
-    println("А=$b")
-    println("B=$a")
+    var c:Int=a
+    var d:Int=b
+    println("А=$d")
+    println("B=$c")
 
 
 }
